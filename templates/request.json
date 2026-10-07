@@ -1,0 +1,13 @@
+{
+  "legal_name": "COMPLETAR razón social",
+  "ticker": "COMPLETAR",
+  "exchange": "COMPLETAR mercado",
+  "regulatory_id": null,
+  "instrument": "ordinary_share",
+  "currency": "USD",
+  "cutoff_date": "2026-10-07",
+  "market_price_date": null,
+  "accounting_standard": "COMPLETAR IFRS / US GAAP / local",
+  "sector": "COMPLETAR",
+  "synthetic": false
+}

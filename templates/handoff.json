@@ -1,0 +1,12 @@
+{
+  "issue_id": "",
+  "from_role": "",
+  "to_role": "",
+  "summary": "",
+  "artifacts": [{"path": "", "sha256": "", "version": 1}],
+  "checks": [],
+  "sources": [],
+  "open_questions": [],
+  "blockers": [],
+  "next_action": ""
+}

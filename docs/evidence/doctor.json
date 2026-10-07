@@ -1,0 +1,85 @@
+{
+  "paperclip": {
+    "status": "ok",
+    "version": "0.3.1+0.git.467125f",
+    "serverVersion": "0.3.1+0.git.467125f",
+    "commit": "467125fafb47a8520856504fecc48d6e32055db1",
+    "deploymentMode": "authenticated",
+    "deploymentExposure": "private",
+    "localAiLoginSupported": true,
+    "authReady": true,
+    "bootstrapStatus": "ready",
+    "bootstrapInviteActive": false,
+    "features": {
+      "companyDeletionEnabled": false
+    },
+    "serverInfo": {
+      "processStartedAt": "2026-10-07T20:45:44.639Z",
+      "git": {
+        "available": true,
+        "fullSha": "467125fafb47a8520856504fecc48d6e32055db1",
+        "shortSha": "467125f",
+        "branchName": null,
+        "subject": "Source build",
+        "committedAt": null,
+        "localChanges": {
+          "available": false,
+          "unavailableReason": "git_status_unavailable"
+        }
+      }
+    },
+    "startupRecovery": {
+      "phase": "ready",
+      "updatedAt": "2026-10-07T20:45:46.422Z"
+    },
+    "nativeRecovery": {},
+    "databaseBackup": {
+      "enabled": true,
+      "status": "warning",
+      "backupDir": "/paperclip/instances/default/data/backups",
+      "maxAgeHours": 26,
+      "latestBackup": null,
+      "lastFailure": null,
+      "warnings": [
+        {
+          "code": "database_backup_missing",
+          "message": "No .sql.gz database backups found in /paperclip/instances/default/data/backups."
+        }
+      ]
+    },
+    "warnings": [
+      {
+        "code": "database_backup_missing",
+        "message": "No .sql.gz database backups found in /paperclip/instances/default/data/backups."
+      }
+    ]
+  },
+  "organization": {
+    "key": "ares-research-valuation-v1",
+    "company_id": "7280bad0-86db-4207-b9f7-9fb4835a05a6",
+    "ceo_id": "eb058864-dca3-4012-a44f-4550129c430e",
+    "commissioning_issue_id": "4bc99314-69fc-42ec-876e-a189bd279f86"
+  },
+  "agents": [
+    {
+      "id": "eb058864-dca3-4012-a44f-4550129c430e",
+      "name": "Hermes CEO",
+      "status": "idle",
+      "lastHeartbeatAt": null
+    }
+  ],
+  "chatgpt": {
+    "provider": "openai-codex",
+    "logged_in": false
+  },
+  "expected_roles": 6,
+  "actual_roles": 1,
+  "readiness": {
+    "chatgpt_authenticated": false,
+    "six_distinct_roles": false,
+    "all_agents_have_successful_run": false,
+    "commissioning_accepted_by_ceo": false
+  },
+  "operational": false,
+  "qualification": "Successful runs do not replace review of commissioning evidence."
+}

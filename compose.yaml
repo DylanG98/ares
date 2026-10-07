@@ -1,0 +1,68 @@
+name: ares-research
+x-runtime: &runtime
+  image: ares-research:0.1.0
+  build:
+    context: .
+    dockerfile: docker/Dockerfile
+  init: false
+  volumes:
+    - research-data:/data
+  networks: [research]
+
+services:
+  paperclip:
+    <<: *runtime
+    command: [node, --import, /app/server/node_modules/tsx/dist/loader.mjs, /app/server/dist/index.js]
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${ARES_PORT:-3107}:3100"
+    environment:
+      HOST: 0.0.0.0
+      PORT: "3100"
+      NODE_ENV: production
+      SERVE_UI: "true"
+      PAPERCLIP_HOME: /paperclip
+      PAPERCLIP_CONFIG: /paperclip/instances/default/config.json
+      PAPERCLIP_DEPLOYMENT_MODE: authenticated
+      PAPERCLIP_DEPLOYMENT_EXPOSURE: private
+      PAPERCLIP_PUBLIC_URL: "http://127.0.0.1:${ARES_PORT:-3107}"
+      PAPERCLIP_AUTH_BASE_URL_MODE: explicit
+      BETTER_AUTH_TRUSTED_ORIGINS: "http://127.0.0.1:${ARES_PORT:-3107}"
+      PAPERCLIP_ALLOWED_HOSTNAMES: paperclip,localhost,127.0.0.1
+      BETTER_AUTH_SECRET: "${BETTER_AUTH_SECRET:?Run python scripts/setup.py}"
+      PAPERCLIP_AGENT_JWT_SECRET: "${PAPERCLIP_AGENT_JWT_SECRET:?Run python scripts/setup.py}"
+      PAPERCLIP_MIGRATION_AUTO_APPLY: "true"
+      PAPERCLIP_MIGRATION_PROMPT: never
+      PAPERCLIP_TELEMETRY_DISABLED: "1"
+      ARES_PAPERCLIP_URL: http://127.0.0.1:3100
+    volumes:
+      - research-data:/data
+      - paperclip-data:/paperclip
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3100/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 90s
+    pids_limit: 512
+    mem_limit: 6g
+    cpus: 2
+    security_opt: [no-new-privileges:true]
+
+  operator:
+    <<: *runtime
+    profiles: [tools]
+    entrypoint: [tini, --, /usr/local/bin/ares-entrypoint, ares]
+    command: [doctor]
+    environment:
+      ARES_PAPERCLIP_URL: http://paperclip:3100
+      ARES_PUBLIC_URL: "http://127.0.0.1:${ARES_PORT:-3107}"
+      ARES_BOARD_EMAIL: "${ARES_BOARD_EMAIL:-operador@ares.local}"
+      ARES_BOARD_PASSWORD: "${ARES_BOARD_PASSWORD:?Run python scripts/setup.py}"
+    security_opt: [no-new-privileges:true]
+
+volumes:
+  research-data:
+  paperclip-data:
+networks:
+  research:

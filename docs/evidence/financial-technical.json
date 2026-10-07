@@ -1,0 +1,33 @@
+{
+  "kind": "deterministic_technical_test",
+  "synthetic": true,
+  "case_id": "e7f9d63fa7b28c5b2de6343e",
+  "pdf_extraction": "pass",
+  "xbrl_extraction": "pass_requires_original_validation",
+  "independent_numeric_check": "pass",
+  "injected_error_detected": [
+    {
+      "code": "DCF_MISMATCH",
+      "severity": "material",
+      "owner": "valuation",
+      "message": "base: observed 16.69076348718108; independent result 14.690763487181078"
+    }
+  ],
+  "xlsx_formula_and_cache_inspection": "pass",
+  "spreadsheet_engine_recalculation": {
+    "status": "pass",
+    "engine": "LibreOffice 25.2.3.2",
+    "review_findings": [],
+    "original_sha256": "9762745afd5ede4c99bb7867355d4032f7a078d909076c8d1e07663f1962d8db",
+    "recalculated_sha256": "32a2530cf95b047ee16c56e02bd598fcf69b4ea95e38c8fa38aa9cc82648b300"
+  },
+  "docx_and_pptx_open": "pass",
+  "valuations": {
+    "adverso": 5.236225985760081,
+    "base": 14.69076348718108,
+    "favorable": 25.192216604780615
+  },
+  "real_agent_runs": "not_run_requires_chatgpt_login",
+  "tokens": null,
+  "cost": null
+}

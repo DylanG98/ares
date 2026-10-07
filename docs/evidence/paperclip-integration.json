@@ -1,0 +1,54 @@
+{
+  "kind": "real_paperclip_integration_without_inference",
+  "bootstrap_twice_same_ids": true,
+  "company_id": "7280bad0-86db-4207-b9f7-9fb4835a05a6",
+  "agents_created": 1,
+  "issues_created": 1,
+  "ceo_role": "ceo",
+  "adapter": "hermes_local",
+  "heartbeat": {
+    "enabled": false,
+    "wakeOnDemand": false,
+    "maxConcurrentRuns": 1
+  },
+  "permissions": {
+    "canCreateAgents": true,
+    "canCreateSkills": true
+  },
+  "profiles_skill_counts": {
+    "ceo": 5,
+    "research": 4,
+    "accounting": 5,
+    "business": 3,
+    "valuation": 3,
+    "review": 4
+  },
+  "adapter_environment": {
+    "adapterType": "hermes_local",
+    "status": "warn",
+    "checks": [
+      {
+        "level": "info",
+        "message": "Hermes Agent version: Hermes Agent vunknown (2026.9.24)\nInstall directory: /opt/hermes\nInstall method: unknown\nPython: 3.14.8\nOpenAI SDK: 2.24.0",
+        "code": "hermes_version"
+      },
+      {
+        "level": "info",
+        "message": "Model: CONFIGURE_AFTER_CHATGPT_LOGIN",
+        "code": "hermes_model_configured"
+      },
+      {
+        "level": "warn",
+        "message": "No LLM API keys found in environment",
+        "hint": "Set API keys in the agent's env secrets or ~/.hermes/.env. Hermes supports: ANTHROPIC_API_KEY, OPENROUTER_API_KEY, OPENAI_API_KEY, ZAI_API_KEY, KIMI_API_KEY, MINIMAX_API_KEY",
+        "code": "hermes_no_api_keys"
+      }
+    ],
+    "testedAt": "2026-10-07T20:47:34.647Z"
+  },
+  "chatgpt": {
+    "provider": "openai-codex",
+    "logged_in": false
+  },
+  "real_agent_runs": false
+}

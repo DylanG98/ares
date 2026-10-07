@@ -1,0 +1,65 @@
+{
+  "synthetic": true,
+  "rows": [
+    {
+      "year": 2020,
+      "revenue": 800,
+      "ebit": 144.0,
+      "net_income": 80,
+      "cfo": 100,
+      "capex": 40.0,
+      "assets": 1300,
+      "liabilities": 520,
+      "equity": 780,
+      "source_id": "synthetic-annual"
+    },
+    {
+      "year": 2021,
+      "revenue": 850,
+      "ebit": 153.0,
+      "net_income": 85,
+      "cfo": 105,
+      "capex": 42.5,
+      "assets": 1350,
+      "liabilities": 540,
+      "equity": 810,
+      "source_id": "synthetic-annual"
+    },
+    {
+      "year": 2022,
+      "revenue": 900,
+      "ebit": 162.0,
+      "net_income": 90,
+      "cfo": 110,
+      "capex": 45.0,
+      "assets": 1400,
+      "liabilities": 560,
+      "equity": 840,
+      "source_id": "synthetic-annual"
+    },
+    {
+      "year": 2023,
+      "revenue": 950,
+      "ebit": 171.0,
+      "net_income": 95,
+      "cfo": 115,
+      "capex": 47.5,
+      "assets": 1450,
+      "liabilities": 580,
+      "equity": 870,
+      "source_id": "synthetic-annual"
+    },
+    {
+      "year": 2024,
+      "revenue": 1000,
+      "ebit": 180.0,
+      "net_income": 100,
+      "cfo": 120,
+      "capex": 50.0,
+      "assets": 1500,
+      "liabilities": 600,
+      "equity": 900,
+      "source_id": "synthetic-annual"
+    }
+  ]
+}

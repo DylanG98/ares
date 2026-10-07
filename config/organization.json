@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "key": "ares-research-valuation-v1",
+  "name": "Research y Valuación",
+  "description": "Organización independiente de Ares para research empresarial y valuación. Solo análisis; sin brokers ni operaciones.",
+  "provider": "openai-codex",
+  "roles": [
+    {
+      "key": "ceo",
+      "name": "Hermes CEO",
+      "role": "ceo",
+      "title": "Dirección de Research y Valuación",
+      "skills": [
+        "research-governance",
+        "source-evidence",
+        "grounded-citations",
+        "docx",
+        "powerpoint"
+      ]
+    },
+    {
+      "key": "research",
+      "name": "Research y Fuentes",
+      "role": "researcher",
+      "title": "Investigación y gestión de fuentes",
+      "skills": [
+        "source-evidence",
+        "grounded-citations",
+        "pdf",
+        "xbrl-validation"
+      ]
+    },
+    {
+      "key": "accounting",
+      "name": "Análisis Contable",
+      "role": "general",
+      "title": "Contabilidad y calidad de resultados",
+      "skills": [
+        "accounting-quality",
+        "source-evidence",
+        "pdf",
+        "xlsx",
+        "xbrl-validation"
+      ]
+    },
+    {
+      "key": "business",
+      "name": "Negocio y Perspectivas",
+      "role": "researcher",
+      "title": "Negocio, industria y escenarios",
+      "skills": [
+        "business-outlook",
+        "source-evidence",
+        "grounded-citations"
+      ]
+    },
+    {
+      "key": "valuation",
+      "name": "Modelado y Valuación",
+      "role": "general",
+      "title": "Modelo financiero y valuación",
+      "skills": [
+        "financial-model",
+        "accounting-quality",
+        "xlsx"
+      ]
+    },
+    {
+      "key": "review",
+      "name": "Revisión Independiente",
+      "role": "qa",
+      "title": "Revisión crítica independiente",
+      "skills": [
+        "independent-review",
+        "source-evidence",
+        "xlsx",
+        "pdf"
+      ]
+    }
+  ]
+}

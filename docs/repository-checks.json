@@ -1,0 +1,864 @@
+[
+  {
+    "repo": "NousResearch/hermes-agent",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "v2026.9.24",
+            "published": "2026-09-24T10:09:38Z",
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "feat(matrix): opt rooms out of link previews via empty bundled previews",
+            "url": "https://github.com/NousResearch/hermes-agent/pull/134742",
+            "updated_at": "2026-10-07T20:21:41Z",
+            "pull_request": true
+          },
+          {
+            "title": "fix(agent): detect byte-identical execute_code replays as loops",
+            "url": "https://github.com/NousResearch/hermes-agent/pull/134741",
+            "updated_at": "2026-10-07T20:20:06Z",
+            "pull_request": true
+          },
+          {
+            "title": "fix(desktop): honor ~/.ssh/config User in the SSH profile-inventory probe",
+            "url": "https://github.com/NousResearch/hermes-agent/pull/134740",
+            "updated_at": "2026-10-07T20:19:52Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".env.example",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/.env.example"
+          },
+          {
+            "path": ".github",
+            "url": "https://github.com/NousResearch/hermes-agent/tree/main/.github"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/LICENSE"
+          },
+          {
+            "path": "README.es.md",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.es.md"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+          },
+          {
+            "path": "README.ur-pk.md",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.ur-pk.md"
+          },
+          {
+            "path": "README.zh-CN.md",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.zh-CN.md"
+          },
+          {
+            "path": "cli-config.yaml.example",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.example"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/NousResearch/hermes-agent/blob/main/pyproject.toml"
+          },
+          {
+            "path": "tests-js",
+            "url": "https://github.com/NousResearch/hermes-agent/tree/main/tests-js"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/NousResearch/hermes-agent/tree/main/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": []
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "Reject trailing newlines in Security Architect usernames",
+            "url": "https://github.com/msitarzewski/agency-agents/pull/1064",
+            "updated_at": "2026-10-07T20:21:18Z",
+            "pull_request": true
+          },
+          {
+            "title": "fix(security): preserve IOC CSV record boundaries",
+            "url": "https://github.com/msitarzewski/agency-agents/pull/1063",
+            "updated_at": "2026-10-07T20:07:43Z",
+            "pull_request": true
+          },
+          {
+            "title": "Add Open Source Bounty Engineer - Engineering",
+            "url": "https://github.com/msitarzewski/agency-agents/pull/1060",
+            "updated_at": "2026-10-07T00:52:40Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/msitarzewski/agency-agents/tree/main/.github"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/msitarzewski/agency-agents/blob/main/LICENSE"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md"
+          },
+          {
+            "path": "examples",
+            "url": "https://github.com/msitarzewski/agency-agents/tree/main/examples"
+          },
+          {
+            "path": "testing",
+            "url": "https://github.com/msitarzewski/agency-agents/tree/main/testing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "dgunning/edgartools",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "v5.61.1",
+            "published": "2026-10-06T22:30:02Z",
+            "url": "https://github.com/dgunning/edgartools/releases/tag/v5.61.1"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "Offline audit truncates pytest parameter IDs containing spaces",
+            "url": "https://github.com/dgunning/edgartools/issues/1476",
+            "updated_at": "2026-10-07T19:38:14Z",
+            "pull_request": false
+          },
+          {
+            "title": "Rendered stock par values lose filed per-share precision and display zero",
+            "url": "https://github.com/dgunning/edgartools/issues/1475",
+            "updated_at": "2026-10-07T19:38:12Z",
+            "pull_request": false
+          },
+          {
+            "title": "Document.to_markdown() drops grouped duration and date labels and mislabels amount columns",
+            "url": "https://github.com/dgunning/edgartools/issues/1474",
+            "updated_at": "2026-10-07T19:38:10Z",
+            "pull_request": false
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/dgunning/edgartools/tree/main/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/dgunning/edgartools/blob/main/.readthedocs.yaml"
+          },
+          {
+            "path": "LICENSE.txt",
+            "url": "https://github.com/dgunning/edgartools/blob/main/LICENSE.txt"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/dgunning/edgartools/blob/main/README.md"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/dgunning/edgartools/tree/main/docs"
+          },
+          {
+            "path": "examples",
+            "url": "https://github.com/dgunning/edgartools/tree/main/examples"
+          },
+          {
+            "path": "mkdocs.yml",
+            "url": "https://github.com/dgunning/edgartools/blob/main/mkdocs.yml"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/dgunning/edgartools/blob/main/pyproject.toml"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/dgunning/edgartools/tree/main/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "Arelle/Arelle",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "2.46.0",
+            "published": "2026-09-30T14:31:37Z",
+            "url": "https://github.com/Arelle/Arelle/releases/tag/2.46.0"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "UKSEF: Companies House Mandatory Facts ",
+            "url": "https://github.com/Arelle/Arelle/pull/2658",
+            "updated_at": "2026-10-07T20:20:15Z",
+            "pull_request": true
+          },
+          {
+            "title": "Retire tests/plugin/testcaseIxExpectedHtmlFixup.py",
+            "url": "https://github.com/Arelle/Arelle/pull/2655",
+            "updated_at": "2026-10-07T17:14:11Z",
+            "pull_request": true
+          },
+          {
+            "title": "Relax role URI constraint on NL-KVK.4.4.2.5",
+            "url": "https://github.com/Arelle/Arelle/pull/2654",
+            "updated_at": "2026-10-06T20:49:05Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/Arelle/Arelle/tree/master/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/Arelle/Arelle/blob/master/.readthedocs.yaml"
+          },
+          {
+            "path": "LICENSE.md",
+            "url": "https://github.com/Arelle/Arelle/blob/master/LICENSE.md"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/Arelle/Arelle/blob/master/README.md"
+          },
+          {
+            "path": "conftest.py",
+            "url": "https://github.com/Arelle/Arelle/blob/master/conftest.py"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/Arelle/Arelle/tree/master/docs"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/Arelle/Arelle/blob/master/pyproject.toml"
+          },
+          {
+            "path": "requirements-build.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-build.txt"
+          },
+          {
+            "path": "requirements-dev.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-dev.txt"
+          },
+          {
+            "path": "requirements-docs.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-docs.txt"
+          },
+          {
+            "path": "requirements-plugins.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-plugins.txt"
+          },
+          {
+            "path": "requirements-test.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-test.txt"
+          },
+          {
+            "path": "requirements-versioning.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements-versioning.txt"
+          },
+          {
+            "path": "requirements.txt",
+            "url": "https://github.com/Arelle/Arelle/blob/master/requirements.txt"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/Arelle/Arelle/tree/master/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "sec-edgar/sec-edgar",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "v0.6.0",
+            "published": "2025-05-09T01:51:10Z",
+            "url": "https://github.com/sec-edgar/sec-edgar/releases/tag/v0.6.0"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "feat: add Edgar MCP implementation",
+            "url": "https://github.com/sec-edgar/sec-edgar/pull/333",
+            "updated_at": "2026-10-05T04:23:12Z",
+            "pull_request": true
+          },
+          {
+            "title": "XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document",
+            "url": "https://github.com/sec-edgar/sec-edgar/issues/331",
+            "updated_at": "2026-01-25T09:18:58Z",
+            "pull_request": false
+          },
+          {
+            "title": "JSON Decoder Error",
+            "url": "https://github.com/sec-edgar/sec-edgar/issues/324",
+            "updated_at": "2025-05-09T21:46:33Z",
+            "pull_request": false
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/sec-edgar/sec-edgar/tree/master/.github"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/sec-edgar/sec-edgar/blob/master/LICENSE"
+          },
+          {
+            "path": "README.rst",
+            "url": "https://github.com/sec-edgar/sec-edgar/blob/master/README.rst"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/sec-edgar/sec-edgar/tree/master/docs"
+          },
+          {
+            "path": "requirements-dev.txt",
+            "url": "https://github.com/sec-edgar/sec-edgar/blob/master/requirements-dev.txt"
+          },
+          {
+            "path": "requirements.txt",
+            "url": "https://github.com/sec-edgar/sec-edgar/blob/master/requirements.txt"
+          },
+          {
+            "path": "test.sh",
+            "url": "https://github.com/sec-edgar/sec-edgar/blob/master/test.sh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "py-pdf/pypdf",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "6.19.0",
+            "published": "2026-09-16T09:31:55Z",
+            "url": "https://github.com/py-pdf/pypdf/releases/tag/6.19.0"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "ENH: Add support for BrotliDecode filter (PDF 2.0)",
+            "url": "https://github.com/py-pdf/pypdf/pull/4168",
+            "updated_at": "2026-10-07T16:49:09Z",
+            "pull_request": true
+          },
+          {
+            "title": "MAINT: Fix A001 (Variable is shadowing a Python builtin)",
+            "url": "https://github.com/py-pdf/pypdf/pull/4167",
+            "updated_at": "2026-10-07T16:45:11Z",
+            "pull_request": true
+          },
+          {
+            "title": "ROB: Skip a TJ operator whose operand is not an array",
+            "url": "https://github.com/py-pdf/pypdf/pull/4166",
+            "updated_at": "2026-10-07T15:58:21Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/py-pdf/pypdf/tree/main/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/py-pdf/pypdf/blob/main/.readthedocs.yaml"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/py-pdf/pypdf/blob/main/LICENSE"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/py-pdf/pypdf/blob/main/README.md"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/py-pdf/pypdf/tree/main/docs"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/py-pdf/pypdf/blob/main/pyproject.toml"
+          },
+          {
+            "path": "requirements",
+            "url": "https://github.com/py-pdf/pypdf/tree/main/requirements"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/py-pdf/pypdf/tree/main/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "jsvine/pdfplumber",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "v0.11.10",
+            "published": "2026-06-15T03:34:21Z",
+            "url": "https://github.com/jsvine/pdfplumber/releases/tag/v0.11.10"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "Git-ignore .venv",
+            "url": "https://github.com/jsvine/pdfplumber/pull/1408",
+            "updated_at": "2026-10-05T15:00:22Z",
+            "pull_request": true
+          },
+          {
+            "title": "Support password documents from the cli",
+            "url": "https://github.com/jsvine/pdfplumber/pull/1407",
+            "updated_at": "2026-10-05T12:58:24Z",
+            "pull_request": true
+          },
+          {
+            "title": "Require Python 3.10+ to match CI and classifiers",
+            "url": "https://github.com/jsvine/pdfplumber/pull/1406",
+            "updated_at": "2026-10-03T17:37:19Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/jsvine/pdfplumber/tree/stable/.github"
+          },
+          {
+            "path": "LICENSE.txt",
+            "url": "https://github.com/jsvine/pdfplumber/blob/stable/LICENSE.txt"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/jsvine/pdfplumber/blob/stable/README.md"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/jsvine/pdfplumber/tree/stable/docs"
+          },
+          {
+            "path": "examples",
+            "url": "https://github.com/jsvine/pdfplumber/tree/stable/examples"
+          },
+          {
+            "path": "requirements-dev.txt",
+            "url": "https://github.com/jsvine/pdfplumber/blob/stable/requirements-dev.txt"
+          },
+          {
+            "path": "requirements.txt",
+            "url": "https://github.com/jsvine/pdfplumber/blob/stable/requirements.txt"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/jsvine/pdfplumber/tree/stable/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "pymupdf/PyMuPDF",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "1.28.2",
+            "published": "2026-08-06T22:16:34Z",
+            "url": "https://github.com/pymupdf/PyMuPDF/releases/tag/1.28.2"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "`Page.add_widget` fails for radio buttons",
+            "url": "https://github.com/pymupdf/PyMuPDF/issues/5165",
+            "updated_at": "2026-10-07T14:45:53Z",
+            "pull_request": false
+          },
+          {
+            "title": "`Document.rewrite_images()` writes RGB JPEGs for grey and CMYK images but keeps the original `/ColorSpace` (regression in 1.26.3)",
+            "url": "https://github.com/pymupdf/PyMuPDF/issues/5164",
+            "updated_at": "2026-10-07T12:14:08Z",
+            "pull_request": false
+          },
+          {
+            "title": "Updates README for 2.0 release.",
+            "url": "https://github.com/pymupdf/PyMuPDF/pull/5163",
+            "updated_at": "2026-10-06T14:44:24Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/pymupdf/PyMuPDF/tree/main/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/pymupdf/PyMuPDF/blob/main/.readthedocs.yaml"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/pymupdf/PyMuPDF/blob/main/README.md"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/pymupdf/PyMuPDF/tree/main/docs"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/pymupdf/PyMuPDF/blob/main/pyproject.toml"
+          },
+          {
+            "path": "pytest.ini",
+            "url": "https://github.com/pymupdf/PyMuPDF/blob/main/pytest.ini"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/pymupdf/PyMuPDF/tree/main/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "jmcnamara/XlsxWriter",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": []
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "Fix quoted literals in text conditional formats",
+            "url": "https://github.com/jmcnamara/XlsxWriter/pull/1207",
+            "updated_at": "2026-10-03T13:44:05Z",
+            "pull_request": true
+          },
+          {
+            "title": "Bug: Text conditional formats do not escape embedded double quotes",
+            "url": "https://github.com/jmcnamara/XlsxWriter/issues/1206",
+            "updated_at": "2026-10-03T19:23:43Z",
+            "pull_request": false
+          },
+          {
+            "title": "Fix: reject define_name/add_table names longer than Excel's 255-character limit",
+            "url": "https://github.com/jmcnamara/XlsxWriter/pull/1205",
+            "updated_at": "2026-09-30T10:59:43Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/jmcnamara/XlsxWriter/tree/main/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/jmcnamara/XlsxWriter/blob/main/.readthedocs.yaml"
+          },
+          {
+            "path": "LICENSE.txt",
+            "url": "https://github.com/jmcnamara/XlsxWriter/blob/main/LICENSE.txt"
+          },
+          {
+            "path": "README.rst",
+            "url": "https://github.com/jmcnamara/XlsxWriter/blob/main/README.rst"
+          },
+          {
+            "path": "examples",
+            "url": "https://github.com/jmcnamara/XlsxWriter/tree/main/examples"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "ClosedXML/ClosedXML",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "0.105.1",
+            "published": "2026-07-25T17:50:50Z",
+            "url": "https://github.com/ClosedXML/ClosedXML/releases/tag/0.105.1"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "Passing XLSheetProtectionElements arguments to IXLWorksheet.Protect breaks protection",
+            "url": "https://github.com/ClosedXML/ClosedXML/issues/2891",
+            "updated_at": "2026-09-29T17:08:41Z",
+            "pull_request": false
+          },
+          {
+            "title": "fix: keep collection type after Skip/Where/Take on columns and rows",
+            "url": "https://github.com/ClosedXML/ClosedXML/pull/2878",
+            "updated_at": "2026-08-24T00:08:36Z",
+            "pull_request": true
+          },
+          {
+            "title": "LINQ operations (filtering) on IXLColumn [e.g. returned by ColumnsUsed()] (and I guess rows) do not work as expected",
+            "url": "https://github.com/ClosedXML/ClosedXML/issues/2867",
+            "updated_at": "2026-07-26T22:32:31Z",
+            "pull_request": false
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/ClosedXML/ClosedXML/tree/develop/.github"
+          },
+          {
+            "path": ".readthedocs.yaml",
+            "url": "https://github.com/ClosedXML/ClosedXML/blob/develop/.readthedocs.yaml"
+          },
+          {
+            "path": "ClosedXML.Examples",
+            "url": "https://github.com/ClosedXML/ClosedXML/tree/develop/ClosedXML.Examples"
+          },
+          {
+            "path": "ClosedXML.Tests",
+            "url": "https://github.com/ClosedXML/ClosedXML/tree/develop/ClosedXML.Tests"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/ClosedXML/ClosedXML/blob/develop/LICENSE"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/ClosedXML/ClosedXML/blob/develop/README.md"
+          },
+          {
+            "path": "docs",
+            "url": "https://github.com/ClosedXML/ClosedXML/tree/develop/docs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "JerBouma/FinanceToolkit",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": [
+          {
+            "tag": "v2.2.1",
+            "published": "2026-10-01T19:08:27Z",
+            "url": "https://github.com/JerBouma/FinanceToolkit/releases/tag/v2.2.1"
+          }
+        ]
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "v2.2.2",
+            "url": "https://github.com/JerBouma/FinanceToolkit/pull/259",
+            "updated_at": "2026-10-07T13:40:07Z",
+            "pull_request": true
+          },
+          {
+            "title": "Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`",
+            "url": "https://github.com/JerBouma/FinanceToolkit/issues/245",
+            "updated_at": "2026-09-12T00:29:34Z",
+            "pull_request": false
+          },
+          {
+            "title": "Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`",
+            "url": "https://github.com/JerBouma/FinanceToolkit/issues/238",
+            "updated_at": "2026-08-14T20:16:11Z",
+            "pull_request": false
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/JerBouma/FinanceToolkit/tree/main/.github"
+          },
+          {
+            "path": "LICENSE.txt",
+            "url": "https://github.com/JerBouma/FinanceToolkit/blob/main/LICENSE.txt"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/JerBouma/FinanceToolkit/blob/main/README.md"
+          },
+          {
+            "path": "examples",
+            "url": "https://github.com/JerBouma/FinanceToolkit/tree/main/examples"
+          },
+          {
+            "path": "pyproject.toml",
+            "url": "https://github.com/JerBouma/FinanceToolkit/blob/main/pyproject.toml"
+          },
+          {
+            "path": "tests",
+            "url": "https://github.com/JerBouma/FinanceToolkit/tree/main/tests"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "anthropics/financial-services",
+    "checks": [
+      {
+        "kind": "latest_release",
+        "items": []
+      },
+      {
+        "kind": "open_issues_sample",
+        "items": [
+          {
+            "title": "README: fix connector count, add missing plugins to Skill & Command Reference",
+            "url": "https://github.com/anthropics/financial-services/pull/385",
+            "updated_at": "2026-10-03T15:46:05Z",
+            "pull_request": true
+          },
+          {
+            "title": "Fix invalid financial-analysis .mcp.json; gate .mcp.json in check.py …",
+            "url": "https://github.com/anthropics/financial-services/pull/384",
+            "updated_at": "2026-10-03T11:40:04Z",
+            "pull_request": true
+          },
+          {
+            "title": "fix(financial-analysis): repair invalid JSON in .mcp.json",
+            "url": "https://github.com/anthropics/financial-services/pull/383",
+            "updated_at": "2026-10-02T17:10:30Z",
+            "pull_request": true
+          }
+        ]
+      },
+      {
+        "kind": "root_test_and_example_signals",
+        "items": [
+          {
+            "path": ".github",
+            "url": "https://github.com/anthropics/financial-services/tree/main/.github"
+          },
+          {
+            "path": "LICENSE",
+            "url": "https://github.com/anthropics/financial-services/blob/main/LICENSE"
+          },
+          {
+            "path": "README.md",
+            "url": "https://github.com/anthropics/financial-services/blob/main/README.md"
+          }
+        ]
+      }
+    ]
+  }
+]

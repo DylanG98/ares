@@ -1,0 +1,14 @@
+# Diagnóstico — 2026-10-07
+
+- Workspace cloud Linux: `/workspace/ares`; repositorio nuevo `DylanG98/ares`, inicialmente vacío, branch local `work`. No se encontró AGENTS.md local previo ni contexto de instalaciones Paperclip del usuario.
+- La ruta Windows mencionada en el pedido y su puerto 3100 no están montados ni accesibles. No se inventarió ni modificó el equipo de marketing. Se eligió una instancia nueva en 3107 con volúmenes propios.
+- GitHub conectado permite acceso al repositorio Ares y lectura de upstreams. Se clonaron Paperclip y Hermes oficiales como submódulos fijados. `upstream.lock.json` documenta la diferencia entre master inspeccionado y release estable desplegada.
+- Docker daemon disponible, storage driver `vfs`, filesystem del entorno limitado a 32 GB. Requiere acceso del ejecutor fuera de la restricción inicial de socket. Los builds y reemplazos duplicaron capas, agotando espacio; se eliminaron solo recursos temporales del proyecto y se compactó la imagen de prueba. No hay procesos locales del usuario en este entorno.
+- No hay credenciales de ChatGPT/Hermes en este cloud. El usuario decidió autenticar en Windows. No se solicitó ni importó una clave API; no se verificaron modelos habilitados ni inferencia real.
+- Hermes actual requiere Python 3.14 para runtime completo. Su setup rechaza wheels/sdist: se usa checkout editable fijado y uv.lock; no se desactiva su control de distribución. Entorno Ares independiente del entorno Hermes.
+- Paperclip exige el loader tsx de su imagen oficial para resolver paquetes del workspace. El CMD se conserva con `node --import .../tsx/dist/loader.mjs .../server/dist/index.js`.
+- Adaptador oficial `hermes_local` disponible. `maxTurnsPerRun` es el campo real de turnos, no `maxIterations`. El adaptador ejecuta Hermes no interactivo con `--yolo`; las restricciones de contenedor/permisos y el alcance de instrucciones siguen siendo necesarios. No se modifica ese adaptador.
+- Skills oficiales presentes: PDF, xlsx, docx, powerpoint, grounded-citations. Los scripts representativos y dependencias se verifican en la evidencia, sin inferir capacidad por la sola existencia de SKILL.md.
+- Configuración previa modificada: ninguna. `.env` se genera una vez y se conserva; las revisiones posteriores se respaldan/validan antes de aplicar. No se copian secretos entre perfiles.
+- La red cloud permite repositorios/package managers, pero no establece acceso a todos los reguladores o proveedores. Las pruebas financieras usan fixtures sintéticos; primera empresa real pendiente de indicación del usuario.
+- En Docker con puerto host distinto al interno, Paperclip reescribe el puerto de authPublicBaseUrl al puerto de escucha. Se configura `BETTER_AUTH_TRUSTED_ORIGINS` con el origen exacto 127.0.0.1:3107, además del modo explícito; no se desactiva la validación de origen.
