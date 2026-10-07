@@ -6,7 +6,7 @@
 
 | Comprobación | Resultado y alcance |
 |---|---|
-| Ruff y pytest | 24 pruebas aprobadas en Python 3.12. Fuentes/corte/hash, ausentes, identidad, DCF conocido, revisión, bootstrap, auth, DAG y recuperación ante respuesta perdida |
+| Ruff y pytest | 26 pruebas aprobadas en Python 3.12. Fuentes/corte/hash, ausentes, identidad, balances incompletos/descuadrados bloqueados, DCF conocido, revisión, bootstrap, auth, DAG y recuperación ante respuesta perdida |
 | Docker/Paperclip | Servidor real, usuario node, PostgreSQL incorporado, migraciones aplicadas, API health OK, modo authenticated/private, puerto host solo 127.0.0.1:3107 |
 | Alta oficial | Sign-up/sign-in y `/bootstrap/claim`, creación de una compañía independiente, Hermes CEO y tarea en backlog |
 | Repetición bootstrap | Dos invocaciones consecutivas conservan IDs, un agente y una tarea; no duplican registros |

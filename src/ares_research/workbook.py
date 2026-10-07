@@ -279,20 +279,23 @@ class FinancialWorkbook:
                 c.write_formula(
                     i,
                     1,
-                    f"=Historicos!G{hr}-Historicos!H{hr}-Historicos!I{hr}",
+                    f'=IF(COUNT(Historicos!G{hr}:I{hr})=3,Historicos!G{hr}-Historicos!H{hr}-Historicos!I{hr},"N/D")',
                     num,
-                    row["assets"] - row["liabilities"] - row["equity"],
+                    row["assets"] - row["liabilities"] - row["equity"]
+                    if all(row.get(k) is not None for k in ("assets", "liabilities", "equity"))
+                    else "N/D",
                 )
-                c.write(i, 2, "Debe ser cero")
-            c.write(9, 0, "Base flujos = tasas")
-            c.write_formula(9, 1, "=Supuestos!B9=Supuestos!B10", None, True)
+                c.write(i, 2, "Debe ser cero; N/D bloquea conciliación")
+            controls_row = max(9, len(historical) + 3)
+            c.write(controls_row, 0, "Base flujos = tasas")
+            c.write_formula(controls_row, 1, "=Supuestos!B9=Supuestos!B10", None, True)
             c.write_row(
-                11,
+                controls_row + 2,
                 0,
                 ["Revisión independiente", "PENDIENTE: evidencia y revisor distinto del autor"],
             )
             c.write_row(
-                13,
+                controls_row + 4,
                 0,
                 [
                     "Cachés iniciales",

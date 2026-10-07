@@ -113,6 +113,12 @@ class Dossier:
             or fact.period_end > self.identity.cutoff_date
         ):
             raise ValueError("Fact is outside the information cutoff")
+        original = self.path / "originals" / source.sha256
+        if (
+            not original.exists()
+            or hashlib.sha256(original.read_bytes()).hexdigest() != source.sha256
+        ):
+            raise WorkspaceConflict("Original evidence missing or modified")
         if fact.entity != self.identity.legal_name:
             raise ValueError("Fact belongs to another entity")
         if fact.classification == "reported" and not fact.original_verified:

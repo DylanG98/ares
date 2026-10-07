@@ -18,8 +18,8 @@
     "status": "pass",
     "engine": "LibreOffice 25.2.3.2",
     "review_findings": [],
-    "original_sha256": "9762745afd5ede4c99bb7867355d4032f7a078d909076c8d1e07663f1962d8db",
-    "recalculated_sha256": "32a2530cf95b047ee16c56e02bd598fcf69b4ea95e38c8fa38aa9cc82648b300"
+    "original_sha256": "29fcc7cd3bca1b358ccf0cf7d8517a9d3ec39684b1da302290e6738fc482a470",
+    "recalculated_sha256": "2598703fabef6b5a3abf571c3fc277f47071756614d8b4fe598d6ddb52683f4e"
   },
   "docx_and_pptx_open": "pass",
   "valuations": {

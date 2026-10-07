@@ -112,6 +112,22 @@ class IndependentReviewer:
                                 f"{sheet.title}!{cell.coordinate}",
                             )
                         )
+        if "Controles" in cached:
+            for label, value, *_ in cached["Controles"].iter_rows(values_only=True):
+                if isinstance(label, str) and label.startswith("Balance "):
+                    if (
+                        not isinstance(value, (int, float))
+                        or not math.isfinite(value)
+                        or abs(value) > 1e-6
+                    ):
+                        findings.append(
+                            Finding(
+                                "BALANCE_NOT_RECONCILED",
+                                "material",
+                                "accounting",
+                                f"{label}: {value}",
+                            )
+                        )
         formulas.close()
         cached.close()
         return findings
